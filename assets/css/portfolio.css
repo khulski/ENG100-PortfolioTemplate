@@ -4,6 +4,10 @@ a{color:0x0000FF !important;}
 a:hover{color:0xFF3300 !important;}
 a:visited{color:0xFFCCCC !important;}
 
+body
+{
+	font-family: century schoolbook;
+}
 .navbar
 {
 	float:left;
