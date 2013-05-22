@@ -4,11 +4,6 @@ a{color:0x0000FF !important;}
 a:hover{color:0xFF3300 !important;}
 a:visited{color:0xFFCCCC !important;}
 
-html
-{
-	background: url('assets/img/wallpaper.jpg');
-	background-size: cover;
-}
 body
 {
 	font-family: century schoolbook;
@@ -83,6 +78,16 @@ ul
 	margin-right: auto ;
 }
 
+#bg
+{
+	position: fixed;
+	top: 0;
+	left: 0; 
+	
+	/* Preserve aspet ratio */
+	min-width: 100%;
+	min-height: 100%;
+}
 #profile-picture
 {
 	margin-left: 20px;
