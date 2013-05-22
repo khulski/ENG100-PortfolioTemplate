@@ -6,7 +6,7 @@ a:visited{color:0xFFCCCC !important;}
 
 body
 {
-	background:"assets/img/wallpaper.jpg";
+	background-image: url('assets/img/wallpaper.jpg');
 	font-family: century schoolbook;
 }
 div.ex
