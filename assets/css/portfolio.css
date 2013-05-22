@@ -4,9 +4,12 @@ a{color:0x0000FF !important;}
 a:hover{color:0xFF3300 !important;}
 a:visited{color:0xFFCCCC !important;}
 
-body
-{
-	font-family: century schoolbook;
+html, body {
+	font-family:century schoolbook;;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 div.ex
 {
