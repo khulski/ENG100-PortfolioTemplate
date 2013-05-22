@@ -4,9 +4,13 @@ a{color:0x0000FF !important;}
 a:hover{color:0xFF3300 !important;}
 a:visited{color:0xFFCCCC !important;}
 
+html
+{
+	background: url('assets/img/wallpaper.jpg');
+	background-size: cover;
+}
 body
 {
-	background-image: url('assets/img/wallpaper.jpg');
 	font-family: century schoolbook;
 }
 div.ex
