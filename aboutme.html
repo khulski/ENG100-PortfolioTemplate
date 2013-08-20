@@ -52,17 +52,14 @@
 	</p>
 	
 	<!-- things changed here -->
-	<p>Please take a second to look at my 
-	<div id="gallery"> <a href="assets/Resume-FirstnameLastname.pdf">resume</a>.</div>
-	</p> 
+	<!-- <p>Please take a second to look at my <a href="assets/Resume-FirstnameLastname.pdf">resume</a>.</p> -->
 	
+	<p> Please take a second to look at my <a id="manual1" href="assets/Resume-FirstnameLastname.pdf" title="">resume</a> .</p>
+
 	<!-- this has been added for lightbox-->
-	<a href="image1.jpg"><img src="thumb_image1.jpg" width="72" height="72" alt="" /></a>
-	<script type="text/javascript">
-		$(function() {
-		$('#gallery a').lightBox(); // Select all links in object with gallery ID
-		});
-	</script>
+	$(function() {
+	$('#manual1').lightBox();
+	});
 	
 	</div>
 </body>
