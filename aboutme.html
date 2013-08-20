@@ -6,11 +6,13 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/portfolio.css" />
 	
 	<!-- this has been added for lightbox -->
-	<script type="text/javascript" src="js/jquery.js"></script>
+	<!--<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/jquery.lightbox-0.4.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.4.css" media="screen" />
-
-</head
+	-->
+	
+	<script type="text/javascript" src="lightbox.js"></script>
+</head>
 
 <body>
 	<div class="body-center">
@@ -54,13 +56,13 @@
 	<!-- things changed here -->
 	<!-- <p>Please take a second to look at my <a href="assets/Resume-FirstnameLastname.pdf">resume</a>.</p> -->
 	
-	<p> Please take a second to look at my <a id="manual1" href="assets/Resume-FirstnameLastname.pdf" title="">resume</a> .</p>
+	<p> Please take a second to look at my <a href="assets/Resume-FirstnameLastname.pdf" rel="lightbox" title="">resume</a> .</p>
 
-	<!-- this has been added for lightbox-->
+	<!-- this has been added for lightbox
 	$(function() {
 	$('#manual1').lightBox();
 	});
-	
+	-->
 	</div>
 </body>
 
