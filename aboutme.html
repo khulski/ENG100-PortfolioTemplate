@@ -6,12 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/portfolio.css" />
 	
 	<!-- this has been added for lightbox -->
-	<!--<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/jquery.lightbox-0.4.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.4.css" media="screen" />
-	-->
-	
-	<script type="text/javascript" src="lightbox.js"></script>
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/lightbox-2.6.min.js"></script>
+	<link href="css/lightbox.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -55,14 +52,8 @@
 	
 	<!-- things changed here -->
 	<!-- <p>Please take a second to look at my <a href="assets/Resume-FirstnameLastname.pdf">resume</a>.</p> -->
-	
-	<p> Please take a second to look at my <a href="assets/Resume-FirstnameLastname.pdf" rel="lightbox" title="">resume</a> .</p>
 
-	<!-- this has been added for lightbox
-	$(function() {
-	$('#manual1').lightBox();
-	});
-	-->
+	<a href="assets/Resume-FirstnameLastname.pdf" data-lightbox="image-1" title="My caption">resume</a>
 	</div>
 </body>
 
