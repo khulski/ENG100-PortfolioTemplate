@@ -5,11 +5,13 @@ a:hover{color:0xFF3300 !important;}
 a:visited{color:0xFFCCCC !important;}
 
 html, body {
-	font-family:century schoolbook;;
-  height: 100%;
-  width: 100%;
-  padding: 0;
-  margin: 0;
+	background-image:url('assets/img/diagonal_striped_brick.png');
+	background-repeat:repeat;
+	font-family:century schoolbook;
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
 }
 div.ex
 {
