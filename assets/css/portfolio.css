@@ -5,7 +5,6 @@ a:hover{color:0xFF3300 !important;}
 a:visited{color:0xFFCCCC !important;}
 
 html, body {
-	background-image:url('/assets/img/diagonal_striped_brick.png');
 	font-family:century schoolbook;
 	height: 100%;
 	width: 100%;
